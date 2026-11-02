@@ -1,0 +1,81 @@
+{
+  "format": "weatherslots-report-v1",
+  "fetched_at_utc": "2026-11-02T06:21:45.806417+00:00",
+  "timezone": "Asia/Riyadh",
+  "requested_coordinates": {
+    "latitude": 24.7136,
+    "longitude": 46.6753
+  },
+  "source": "Open-Meteo Weather Forecast API",
+  "source_url": "https://open-meteo.com/",
+  "attribution": "Weather data by Open-Meteo, CC BY 4.0",
+  "filters": {
+    "min_temp": 10,
+    "max_temp": 30,
+    "max_wind": 20,
+    "max_rain": 20,
+    "duration": 2,
+    "from_hour": 6,
+    "to_hour": 22
+  },
+  "sample_count": 72,
+  "samples_with_missing_values": 0,
+  "matching_windows": 6,
+  "windows": [
+    {
+      "start": "2026-11-03T06:00:00+03:00",
+      "end": "2026-11-03T08:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 24.8,
+      "max_temp_c": 27.3,
+      "max_wind_kmh": 3.6,
+      "max_hourly_rain_probability": 0
+    },
+    {
+      "start": "2026-11-03T07:00:00+03:00",
+      "end": "2026-11-03T09:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 25.4,
+      "max_temp_c": 29.8,
+      "max_wind_kmh": 3.3,
+      "max_hourly_rain_probability": 0
+    },
+    {
+      "start": "2026-11-04T06:00:00+03:00",
+      "end": "2026-11-04T08:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 22.8,
+      "max_temp_c": 24.6,
+      "max_wind_kmh": 3.8,
+      "max_hourly_rain_probability": 0
+    },
+    {
+      "start": "2026-11-04T07:00:00+03:00",
+      "end": "2026-11-04T09:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 23.1,
+      "max_temp_c": 27.1,
+      "max_wind_kmh": 3.8,
+      "max_hourly_rain_probability": 0
+    },
+    {
+      "start": "2026-11-04T08:00:00+03:00",
+      "end": "2026-11-04T10:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 24.6,
+      "max_temp_c": 29.6,
+      "max_wind_kmh": 2.9,
+      "max_hourly_rain_probability": 0
+    },
+    {
+      "start": "2026-11-04T20:00:00+03:00",
+      "end": "2026-11-04T22:00:00+03:00",
+      "duration_hours": 2,
+      "min_temp_c": 28.2,
+      "max_temp_c": 30.0,
+      "max_wind_kmh": 9.6,
+      "max_hourly_rain_probability": 0
+    }
+  ],
+  "interpretation": "Hourly forecast samples match your filters; this is not a weather safety guarantee or an official warning service."
+}
